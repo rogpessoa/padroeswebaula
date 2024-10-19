@@ -12,7 +12,7 @@ body{
 .apresentacao{
     margin: 4% 8%;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
 }
 .apresentacao__conteudo{
@@ -35,17 +35,21 @@ body{
 }
 .apresentacao_links{
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
+  align-items: center;
+  gap: 32px;
 }
 .apresentacao_links_links {
-  background-color: #22D4FD;
+  background-color: black;
+  border: 1px solid #22D4FD;
   width: 280px;
   text-align: center;
   border-radius: 16px;
   font-size: 24px;
   padding: 16px 0;
   text-decoration: none;
-  color: black;
+  color: white;
   font-weight: 600;
   font-family: "Montserrat", sans-serif;
 }
@@ -54,3 +58,5 @@ body{
   border-style: solid;
   color: gray;
 }
+
+
